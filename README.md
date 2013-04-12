@@ -24,4 +24,4 @@ Then use it anywhere like this to translate your texts:
   echo $result['data']['translations'][0]['translatedText'];
 ```
 
-Texts are cached for a week to prevent unnecessary API calls.
+Texts are cached for a week to prevent unnecessary API calls. The class uses the POST method for querying the API and doesn't have the 5K character limit.
